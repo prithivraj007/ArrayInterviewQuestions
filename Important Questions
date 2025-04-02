@@ -1,0 +1,82 @@
+Here are some important **array-based coding questions** frequently asked in interviews, ranging from easy to advanced:  
+
+### **1. Easy Level:**  
+1. **Find the Second Largest Element**  
+   ```java
+   int findSecondLargest(int[] arr) { ... }
+   ```
+2. **Reverse an Array**  
+   ```java
+   void reverseArray(int[] arr) { ... }
+   ```
+3. **Move All Zeros to End**  
+   ```java
+   void moveZerosToEnd(int[] arr) { ... }
+   ```
+4. **Find the Missing Number in an Array** *(1 to N, one number missing)*  
+   ```java
+   int findMissingNumber(int[] arr, int n) { ... }
+   ```
+5. **Find Duplicate Element in an Array**  
+   ```java
+   int findDuplicate(int[] arr) { ... }
+   ```
+
+---
+
+### **2. Medium Level:**  
+6. **Kadane’s Algorithm (Maximum Subarray Sum)**  
+   ```java
+   int maxSubarraySum(int[] arr) { ... }
+   ```
+7. **Sort an Array of 0s, 1s, and 2s (Dutch National Flag Algorithm)**  
+   ```java
+   void sortColors(int[] arr) { ... }
+   ```
+8. **Find the Union and Intersection of Two Sorted Arrays**  
+   ```java
+   List<Integer> findUnion(int[] arr1, int[] arr2) { ... }
+   ```
+9. **Find the First and Last Position of an Element in a Sorted Array** *(Binary Search-based)*  
+   ```java
+   int[] searchRange(int[] arr, int target) { ... }
+   ```
+10. **Find the Leaders in an Array** *(Elements greater than all right-side elements)*  
+    ```java
+    List<Integer> findLeaders(int[] arr) { ... }
+    ```
+
+---
+
+### **3. Hard Level:**  
+11. **Find the Longest Consecutive Sequence (Unsorted Array)** *(O(n) using HashSet)*  
+    ```java
+    int longestConsecutive(int[] arr) { ... }
+    ```
+12. **Find the Subarray with Given Sum (Sliding Window Technique)**  
+    ```java
+    int[] findSubarrayWithSum(int[] arr, int sum) { ... }
+    ```
+13. **Merge Overlapping Intervals**  
+    ```java
+    List<int[]> mergeIntervals(int[][] intervals) { ... }
+    ```
+14. **Trapping Rainwater Problem** *(Two Pointer Approach)*  
+    ```java
+    int trapRainWater(int[] heights) { ... }
+    ```
+15. **Find the Median of Two Sorted Arrays (Binary Search Approach)**  
+    ```java
+    double findMedianSortedArrays(int[] nums1, int[] nums2) { ... }
+    ```
+
+---
+
+### **Bonus (Pattern-Based Questions):**  
+16. **Find the Majority Element (Boyer-Moore Voting Algorithm)**  
+17. **Next Greater Element (Using Stack)**  
+18. **Rotate an Array by K Places (Reverse Technique)**  
+19. **Subarray Sum Equals K (HashMap Approach)**  
+20. **Find Pairs in Array with Given Sum (Two Pointer Technique)**  
+
+Would you like solutions for any of these questions? 🚀
